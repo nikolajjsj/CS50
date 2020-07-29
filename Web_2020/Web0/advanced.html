@@ -10,10 +10,30 @@
     <div class="pages">
         <a href="index.html">Go back</a>
     </div>
-    <div id="searchform">
+    <div id="advanced_search">
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <table>
+                <tr>
+                    <td><a id="advanced_text">all these words:</a></td>
+                    <td><input id="advanced_input" type="text" name="as_q"></td>
+                </tr>
+                <tr>
+                    <td><a id="advanced_text">this exact word or phrase:</a></td>
+                    <td><input id="advanced_input" type="text" name="as_epq"></td>
+                </tr>
+                <tr>
+                    <td><a id="advanced_text">any of these words:</a></td>
+                    <td><input id="advanced_input" type="text" name="as_oq"></td>
+                </tr>
+                <tr>
+                    <td><a id="advanced_text">none of these words: </a></td>
+                    <td><input id="advanced_input" type="text" name="as_eq"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input id="advanced_button" type="submit" value="Advanced Search"></td>
+                </tr>
+            </table>
         </form>
     </div>
 
