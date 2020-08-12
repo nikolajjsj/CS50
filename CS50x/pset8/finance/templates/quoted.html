@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <h1> Name: {{ lookup_result['name'] }}</h1>
+    <h1> Price: {{ lookup_result['price'] }}</h1>
+    <h1> Symbol: {{ lookup_result['symbol'] }}</h1>
+{% endblock %}

@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+.under-navbar {
+    margin: 12px;
+}
+
+.nav-link {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.col-sm:hover {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+footer {
+    color: black;
+}
